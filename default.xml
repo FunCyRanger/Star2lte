@@ -12,7 +12,7 @@
            sync-c="true"
            sync-j="4" />
   
-  <project name="LineageOS/android" path="LineageOS/android" remote="github" revision="lineage-20.0" />
+  <extend-project name="LineageOS/android" path="LineageOS/android" remote="github" revision="lineage-20.0" />
   <!-- added to support star2lte Galaxy 9s+ & crownlte from ExyHyperBrick -->
   <!-- kernel -->
   <project name="ExyHyperBrick/android_kernel_samsung_exynos9810" path="kernel/samsung/exynos9810" remote="github" revision="lineage-20" />
