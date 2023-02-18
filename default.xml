@@ -7,6 +7,11 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
   
+  <default revision="refs/heads/lineage-20.0"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+  
   <project name="LineageOS/android" path="LineageOS/android" remote="github" revision="lineage-20.0" />
   <!-- added to support star2lte Galaxy 9s+ & crownlte from ExyHyperBrick -->
   <!-- kernel -->
