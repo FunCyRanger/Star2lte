@@ -1,0 +1,20 @@
+Getting started
+---------------
+
+To initialize your local repository using the LineageOS trees, use a command like this:
+```
+repo init -u https://github.com/FunCyRanger/Star2lte.git -b lineage-20.0
+```
+Then to sync up:
+```
+repo sync
+```
+Prepare the device-specific code
+```
+source build/envsetup.sh
+breakfast star2lte
+```
+Start the build
+```
+brunch star2lte
+```
